@@ -1,0 +1,33 @@
+/* ESTILO VENTANA PRESENTACION ATLETA */
+
+.box-principal {
+    margin-left: 80px;
+}
+
+.box-img {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20% 50%;
+    background-color: white;
+    border: transparent;
+    width: 9.5%;
+    height: 11%;
+    float: left;
+    height: auto;
+    margin: 20px;
+    transition: all 1s ease;
+}
+
+.box-img img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20% 50%;
+    border: transparent;
+}
+
+.box-img:hover {
+    background-color: rgba(0, 0, 0, 0.233);
+}

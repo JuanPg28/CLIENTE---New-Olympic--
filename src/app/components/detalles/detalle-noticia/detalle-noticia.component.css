@@ -1,0 +1,31 @@
+/*ESTILO VENTANA EMERGENTE NOTICIA*/
+
+.box-one{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-one img {
+    border-radius: 20px;
+    border: transparent;
+    margin-left: 80px;
+    padding-right: 30px;
+}
+
+h2 {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+h3 {
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    padding-top: 25px;
+    width: 40%;
+}

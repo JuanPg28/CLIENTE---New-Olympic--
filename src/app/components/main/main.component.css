@@ -1,0 +1,19 @@
+/* ESTILO MAIN */
+
+.about{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+
+.espacio {
+    padding: 100px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

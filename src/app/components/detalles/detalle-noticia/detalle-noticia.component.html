@@ -1,0 +1,17 @@
+<!-- VENTANA EMERGENTE NOTICIA -->
+
+<div class="box-principal" *ngIf="noticia">
+
+    <h2 (click)="limpiar()" title="Click para Salir">{{noticia.titulo}}</h2>
+
+    <h3>{{noticia.fecha}}</h3>
+
+    <div class="box-one">
+
+        <img [src]="noticia.imagen_noticia" alt="" width="600px">
+
+        <p>{{noticia.noticia}}</p>
+        
+    </div>
+
+</div>

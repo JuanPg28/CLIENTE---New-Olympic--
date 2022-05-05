@@ -1,0 +1,139 @@
+/*ESTILO PIE DE PAG*/
+
+.box-transform {
+    background-color: #000;
+    color: white;
+    transform: skewY(-10deg);
+    padding-bottom: 100px;
+}
+
+.footer {
+    transform: skewY(10deg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.columLogo {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.columOne {
+    margin-right: 50px;
+}
+
+.columOne h1 {
+    margin-bottom: 20px;
+    font-size: 6em;
+}
+
+.columOne #email {
+    margin-top: 0%;
+    padding: 0.75em 0 0.88rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0 solid #ffffff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.columOne button{
+    border: transparent;
+    background: transparent;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
+
+.columOne button:hover {
+    color: #16FFBD;
+}
+
+label input {
+    visibility: hidden;
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+label span {
+    height: 13px;
+    width: 13px;
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+[type=checkbox]:checked + span {
+    background: #16FFBD;
+}
+
+.columOne span{
+   font-size: 0.8em;
+}
+
+.redes-box {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.redes-box h2 {
+    font-size: 2.5em;
+}
+
+.redes-box i {
+    font-size: 1.5em;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.redes-box i:hover {
+    color: #16FFBD;
+}
+
+.columTwo {
+    margin-right: 50px;
+}
+
+.columTwo h2{
+    font-size: 2.5em;
+}
+
+.columTwo a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+}
+
+.columTwo a:hover{
+
+    background-size: 100% 2px
+}

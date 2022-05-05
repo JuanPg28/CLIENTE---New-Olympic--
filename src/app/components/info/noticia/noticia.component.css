@@ -1,0 +1,43 @@
+/* VENTANA PRESENTACION NOTICIA */
+
+.box {
+    box-sizing: border-box;
+}
+
+.box-photo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.espacio {
+    padding: 50px;
+}
+
+#site-footer {
+    position: relative;
+    left: 0%;
+    opacity: 1;
+    animation: site-footer-box 10s linear infinite;
+}
+
+@keyframes site-footer-box{
+    0%{
+        left: 0;
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        left: 100vh;
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

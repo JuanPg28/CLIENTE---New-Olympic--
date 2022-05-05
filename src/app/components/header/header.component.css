@@ -1,0 +1,83 @@
+/*-----------MENU-------------*/
+
+#fire {
+    width: 150px;
+    position: absolute;
+    top: -5px;
+    left: 590px;
+
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+    width: 50%;
+    align-items: center;
+}
+
+.menu>div {
+    width: 33%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu ul li {
+    animation-name: opening-logo;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+
+.menu a {
+    font-family: 'barlow Condensed';
+    font-size: 1.7rem;
+
+
+}
+
+.menu .logo img {
+    cursor: pointer;
+    padding-left: 15px;
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+
+/*-----------MENU VIDEO-------------*/
+
+.main-video {
+    margin-top: 250px;
+    transform-origin: 0 0;
+    transform: skewY(-10deg);
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.main-video .video {
+    overflow: hidden;
+    transform: skewY(10deg) scale(1.4, 1.4);
+}
+
+.main-video .video video {
+    margin-top: -100px;
+    width: 100%;
+}
+
+/*-----------INTRO-------------*/
+
+.intro {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: -100px;
+}

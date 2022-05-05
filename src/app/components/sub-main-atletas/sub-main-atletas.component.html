@@ -1,0 +1,7 @@
+<h2>ATLETAS</h2>
+
+<div *ngFor="let atleta of atletas">
+
+    <app-atleta [atleta]="atleta" (atletaSeleccionada)="gestionarAtleta($event)"></app-atleta>
+    
+</div>

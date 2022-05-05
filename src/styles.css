@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Work+Sans&display=swap');
+
+:root{
+    --background-color: #16FFBD;
+    --primary-color: #000;
+    --highlight-color: #ffffff;
+}
+
+*{
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+:-moz-selection{
+    background-color: var(--highlight-color);
+}
+::selection{
+    background-color: var(--highlight-color);
+}
+
+a{
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.2s ease-in-out
+}
+
+a:hover{
+    color: var(--highlight-color);
+}
+
+h2, h3{
+    font-family: 'Barlow Condensed', Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container{
+    width: 1920px;
+}

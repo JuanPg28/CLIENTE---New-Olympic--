@@ -1,0 +1,7 @@
+<h2>NOTICIAS</h2>
+
+<div *ngFor="let noticia of noticias">
+
+    <app-noticia [noticia]="noticia" (noticiaSeleccionada)="gestionarNoticia($event)"></app-noticia>
+    
+</div>

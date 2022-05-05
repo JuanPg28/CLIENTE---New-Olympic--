@@ -1,0 +1,13 @@
+<!-- VENTANA EMERGENTE DEPORTE -->
+
+<div *ngIf="deporte" class="box-deporte">
+
+    <h2 (click)="limpiar()" title="Click para Salir">{{deporte.nombre_deporte}}</h2>
+
+    <img [src]="deporte.icono_deporte" alt="" width="200px">
+
+    <p>{{deporte.descripcion}}</p>
+
+    <h3>{{deporte.mejores_atletas}}</h3>
+    
+</div>

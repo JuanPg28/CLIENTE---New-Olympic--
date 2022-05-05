@@ -1,0 +1,17 @@
+<!-- VENTANA EMERGENTE ATLETA -->
+
+<div *ngIf="atleta" class="box-atleta">
+
+    <h2 (click)="limpiar()" title="Click para Salir">{{atleta.nombre}}</h2>
+
+    <img class="img-atleta" [src]="atleta.foto_atleta" alt="" width="200px">
+
+    <p>{{atleta.nacionalidad}}</p>
+
+    <img [src]="atleta.bandera" alt="" width="50px">
+
+    <h3>{{atleta.medallas}}</h3>
+    
+    <p>{{atleta.bibliografia}}</p>
+
+</div>

@@ -1,0 +1,42 @@
+<main>
+    <!-- OLIMPIADAS -->
+    <section>
+
+        <h2 id="olimpiadas">OLIMPIADAS</h2>
+
+        <!-- BUSCADOR -->
+        <div class="box-input">
+
+            <form>
+                <label for="busqueda">Search</label>
+                <input id="search" type="text" [(ngModel)]="filterPost" name="filterPost" id="busqueda" pattern=".*\S.*" required>
+                <span class="caret"></span>
+            </form>
+
+        </div>
+
+        <div class="espacio"></div>
+
+        <div class="grid olympic" *ngFor="let juegoolimpico of juegosolimpicos | filter:filterPost">
+
+            <a href="#" class="item" data-id="0">
+
+                <img [src]="juegoolimpico.logo_olimpico" alt="" width="100%">
+
+                <div class="bg-hover" data-id="0">
+
+                    <div class="info">
+                        <div class="title">{{juegoolimpico.nombre_olimpico}}</div>
+                        <div class="customer">{{juegoolimpico.anyo}}</div>
+                        <div class="customer">{{juegoolimpico.ciudad}}</div>
+                        <div class="customer">{{juegoolimpico.descripcion}}</div>
+                    </div>
+                    
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>

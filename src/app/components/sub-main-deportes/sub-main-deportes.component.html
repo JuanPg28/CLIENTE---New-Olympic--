@@ -1,0 +1,7 @@
+<h2>DEPORTES</h2>
+
+<div *ngFor="let deporte of deportes">
+
+    <app-deporte [deporte]="deporte" (deporteSeleccionada)="gestionarDeporte($event)"></app-deporte>
+    
+</div>
